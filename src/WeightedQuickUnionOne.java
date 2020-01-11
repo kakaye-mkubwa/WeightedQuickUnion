@@ -13,6 +13,12 @@ public class WeightedQuickUnionOne {
         return i;
     }
 
+    /**
+     * Check whether two points are connected(i.e) share the same root
+     * @param p
+     * @param q
+     * @return
+     */
     public boolean isConnected(int p,int q){
         return root(p) == root(q);
     }
