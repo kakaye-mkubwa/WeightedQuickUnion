@@ -8,6 +8,7 @@ public class WeightedQuickUnionOne {
         }
     }
 
+    //Added line to change the root to which a grandchild is pointing to hence reducing the path
     private int root(int i){
         while(i != id[i]){
             id[i] = id[id[i]];
