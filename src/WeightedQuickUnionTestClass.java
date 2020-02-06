@@ -5,9 +5,9 @@ public class WeightedQuickUnionTestClass {
         weightedQuickUnionOne.union(3,6);
         weightedQuickUnionOne.union(2,1);
         if (weightedQuickUnionOne.isConnected(4,1)){
-            System.out.println("4 & 5 connected");
+            System.out.println("4 & 1 connected");
         }else{
-            System.out.println("4 & 5 not connected");
+            System.out.println("4 & 1 not connected");
         }
     }
 }
