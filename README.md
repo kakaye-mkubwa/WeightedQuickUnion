@@ -1,4 +1,5 @@
-# WeightedQuickUnion
+# WeightedQuickUnion 
+## Java Implementation
 Weighted Quick Union Algorithm executed in java
 
 master branch contains basic weighted quick union algorithm
